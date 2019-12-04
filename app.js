@@ -21,4 +21,4 @@ const userRoute = require('./routes/user')
 app.use('/user', userRoute)
 
 //Start server
-app.listen(4000)
+app.listen("https://prm391-react-native.herokuapp.com/")
