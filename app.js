@@ -19,5 +19,6 @@ mongoose.connect(process.env.DB_CONNECTION, { useNewUrlParser: true }, () =>
 const userRoute = require("./routes/user");
 app.use("/user", userRoute);
 
+const PORT = process.env.PORT || 4000;
 //Start server
-app.listen(process.env.PORT || 4000);
+app.listen(PORT);
